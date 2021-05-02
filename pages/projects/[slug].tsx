@@ -7,7 +7,7 @@ import hydrate from 'next-mdx-remote/hydrate';
 import renderToString from 'next-mdx-remote/render-to-string';
 import { MdxRemote } from 'next-mdx-remote/types';
 import Head from 'next/head';
-import Image from 'next/image';
+import Image from "../../components/Image";
 import Link from 'next/link';
 import path from 'path';
 import React from 'react';
